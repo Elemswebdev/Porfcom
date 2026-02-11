@@ -18,6 +18,7 @@ export default function Contact() {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
+
     setFormData((prev) => ({
       ...prev,
       [name]: value,
@@ -26,13 +27,6 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    // Basic email validation
-    if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      alert("Please enter a valid email address.");
-      return;
-    }
-
     setLoading(true);
 
     try {
@@ -42,26 +36,15 @@ export default function Contact() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          to: "porfcommedia@gmail.com",
-          subject: `New Contact Message from ${formData.name}`,
-          text: `Name: ${formData.name}
-Email: ${formData.email}
-
-Message:
-${formData.message}`,
-          html: `
-            <h3>New Contact Message</h3>
-            <p><strong>Name:</strong> ${formData.name}</p>
-            <p><strong>Email:</strong> ${formData.email}</p>
-            <p><strong>Message:</strong></p>
-            <p>${formData.message}</p>
-          `,
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
         }),
       });
 
       const result = await res.json();
 
-      if (!res.ok || !result.success) {
+      if (!res.ok) {
         throw new Error(result.error || "Failed to send message");
       }
 
@@ -81,16 +64,18 @@ ${formData.message}`,
     <section id="contact" className="w-full py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12 md:mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Get in <span className="text-primary">Touch</span>
           </h2>
           <div className="h-1 w-20 bg-primary rounded-full" />
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* FORM */}
+          {/* CONTACT FORM */}
           <div className="bg-gradient-to-br from-blue-50 to-white rounded-2xl p-8 shadow-lg">
-            <h3 className="text-2xl font-bold mb-6">Send us a Message</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-6">
+              Send us a Message
+            </h3>
 
             {submitted ? (
               <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
@@ -157,11 +142,11 @@ ${formData.message}`,
             )}
           </div>
 
-          {/* INFO */}
+          {/* CONTACT INFO */}
           <div className="space-y-6">
             <div className="border-l-4 border-primary p-6 shadow-md rounded-lg">
               <h3 className="font-bold text-primary mb-2">📍 Visit Us</h3>
-              <p>
+              <p className="text-gray-700">
                 Elikpokwu-Odu, Last Bus Stop,
                 <br />
                 Before Hydropet Fuel Station,

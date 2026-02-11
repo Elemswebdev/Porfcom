@@ -1,15 +1,15 @@
-import Link from 'next/link'
-import { Facebook, Instagram } from 'lucide-react'
+import Link from "next/link";
+import { Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { label: 'Home', href: '#home' },
-    { label: 'Livestream', href: '#livestream' },
-    { label: 'The Church', href: '#about' },
-    { label: 'Contact', href: '#contact' },
-  ]
+    { label: "Home", href: "#home" },
+    { label: "Livestream", href: "#livestream" },
+    { label: "The Church", href: "#about" },
+    { label: "Contact", href: "#contact" },
+  ];
 
   return (
     <footer className="bg-gradient-to-br from-gray-900 to-gray-800 text-white">
@@ -24,7 +24,9 @@ export default function Footer() {
               <span className="text-xl font-bold">Porfcom</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Raising a people of faith, power, and purpose
+              Empowered to librate, restore, and reposition lives in their lost
+              freedoms. Recovering of destinies, raising righteous Kings, men
+              and women into their rightful places
             </p>
           </div>
 
@@ -49,16 +51,23 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4 text-white">Contact</h3>
             <ul className="space-y-3 text-sm text-gray-400">
-              <li>123 Faith Avenue</li>
-              <li>Church City, State 12345</li>
+              <li> Elikpokwu-Odu, Last Bus Stop,</li>
+              <li> Before Hydropet Fuel Station,</li>
+              <li> Rukpokwu, Rivers State.</li>
               <li className="mt-4">
-                <a href="tel:+2341234567890" className="hover:text-primary transition-colors">
-                  +234 (0) 123-456-7890
+                <a
+                  href="tel:+2349120032527"
+                  className="hover:text-primary transition-colors"
+                >
+                  +234 (0) 912-003-2527
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@porfcom.org" className="hover:text-primary transition-colors">
-                  hello@porfcom.org
+                <a
+                  href="mailto:porfcommedia@gmail.com"
+                  className="hover:text-primary transition-colors"
+                >
+                  porfcommedia@gmail.com
                 </a>
               </li>
             </ul>
@@ -87,7 +96,9 @@ export default function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
-            <p className="text-gray-400 text-sm">Stay connected with our community</p>
+            <p className="text-gray-400 text-sm">
+              Stay connected with our community
+            </p>
           </div>
         </div>
 
@@ -98,10 +109,16 @@ export default function Footer() {
               © {currentYear} Porfcom. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-primary transition-colors"
+              >
                 Privacy Policy
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-primary transition-colors"
+              >
                 Terms of Service
               </Link>
             </div>
@@ -109,5 +126,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

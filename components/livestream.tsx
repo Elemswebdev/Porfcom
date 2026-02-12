@@ -24,11 +24,11 @@ export default function Livestream() {
           {/* RIGHT: CONTENT */}
           <div className="max-w-xl">
             <p className="text-md font-bold tracking-widest text-black-700 mb-4">
-              UPCOMING PROGRAM
+              ONGOING PROGRAM
             </p>
 
             <h2 className="text-4xl md:text-5xl font-bold text-foreground leading-tight mb-6">
-              Join our Services <br /> and Programs
+              Join our Services <br /> and Programmes
             </h2>
 
             <p className="text-gray-600 text-lg mb-10">

@@ -15,7 +15,7 @@ export default function ServiceTimes() {
     {
       day: "Friday",
       times: ["5:00 PM"],
-      type: "Bible Study/destiny recovery",
+      type: "Bible Study/Destiny Recovery",
     },
   ];
 

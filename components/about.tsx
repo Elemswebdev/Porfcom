@@ -28,9 +28,9 @@ export default function About() {
           {/* Text */}
           <div className="space-y-6 max-w-lg -ml-10 pt-10 border-l border-gray-200 pl-8">
             <p className="text-2xl md:text-2xl text-gray-700 leading-relaxed">
-              "Empowered to librate, restore, and reposition lives in their lost
-              freedoms. Recovering of destinies, raising righteous Kings, men
-              and women into their rightful places."
+              "Empowered to liberate, restore, and reposition lives in their
+              lost freedoms. Recovering of destinies, raising righteous Kings,
+              men and women into their rightful places."
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">

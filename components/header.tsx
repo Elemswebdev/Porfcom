@@ -65,7 +65,7 @@ export default function Header() {
           {/* Social Icons - Desktop */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://facebook.com/Power of Redemption Fire Covenant Ministry"
+              href="https://facebook.com/PorfcomTv"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-primary transition-colors"
@@ -74,7 +74,7 @@ export default function Header() {
               <Facebook className="w-5 h-5" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/porfcomtv"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-primary transition-colors"

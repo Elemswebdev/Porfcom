@@ -13,7 +13,7 @@ export default function Livestream() {
           {/* LEFT: EVENT IMAGE */}
           <div className="relative w-full h-[520px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/EJ flier.jpeg"
+              src="/images/Annual.jpeg"
               alt="Upcoming Program"
               fill
               className="object-contain"
@@ -24,7 +24,7 @@ export default function Livestream() {
           {/* RIGHT: CONTENT */}
           <div className="max-w-xl">
             <p className="text-md font-bold tracking-widest text-black-700 mb-4">
-              ONGOING PROGRAM
+              ANNUAL PROGRAM
             </p>
 
             <h2 className="text-4xl md:text-5xl font-bold text-foreground leading-tight mb-6">

@@ -109,7 +109,7 @@ export default function Header() {
             ))}
             <div className="flex gap-4 px-4 py-2">
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/porfcomtv"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-primary transition-colors"
@@ -118,7 +118,7 @@ export default function Header() {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/porfcomtv"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-primary transition-colors"

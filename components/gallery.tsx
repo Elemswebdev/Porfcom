@@ -15,17 +15,17 @@ export default function Gallery() {
     {
       id: 2,
       // title: "Community Service",
-      src: "/images/sunpic7.jpg",
+      src: "/images/Image1.jpeg",
     },
     {
       id: 3,
       // title: "Youth Ministry",
-      src: "/images/EJ1.jpg",
+      src: "/images/Image2.jpeg",
     },
     {
       id: 4,
       // title: "Prayer Meeting",
-      src: "/images/EJ6.jpg",
+      src: "/images/Image3.jpeg",
     },
     {
       id: 5,

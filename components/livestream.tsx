@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { Play } from "lucide-react";
 import Image from "next/image";
 
 export default function Livestream() {
@@ -13,15 +11,13 @@ export default function Livestream() {
           {/* LEFT: EVENT IMAGE */}
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Image (UNCHANGED) */}
-            <div className="relative w-full max-w-sm aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-100 to-blue-200">
-              <Image
-                src="/images/Annual.jpeg"
-                alt="daddy's picture"
-                fill
-                className="object-cover object-top"
-                priority
-              />
-            </div>
+            <Image
+              src="/images/Annual.jpeg"
+              alt="EJ's picture"
+              fill
+              className="object-cover object-top"
+              priority
+            />
 
             {/* RIGHT: CONTENT */}
             <div className="max-w-xl">

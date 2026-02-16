@@ -34,12 +34,12 @@ export default function About() {
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              This was the mandate given to Apostle Lucky Letambari Kpani that
+              This was the mandate given to Apostle Lucky Letambari Kpani. It
               manifested as the Commission, Power of Redemption Fire Covenant
-              Ministry, on the 6th of February, 2011. From a little over 30
-              persons in attendance at the first gathering, the Commission has
-              become an ever-growing family of believers who are passionate
-              about Christ and bringing the Gospel to the unsaved.
+              Ministry held it's first service on the 6th of February, 2011 with
+              about 25 persons in attendance. The Commission has now become an
+              ever-growing family of believers who are passionate about Christ
+              and bringing the Gospel to the unsaved.
             </p>
           </div>
         </div>

@@ -10,12 +10,13 @@ export default function Livestream() {
         {/* MAIN GRID */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* LEFT: IMAGE */}
-          <div className="relative w-full h-[500px] rounded-2xl overflow-hidden">
+          <div className="w-full">
             <Image
               src="/images/Annual.jpeg"
               alt="EJ's picture"
-              fill
-              className="object-cover object-top"
+              width={600}
+              height={600}
+              className="rounded-2xl object-cover w-full h-auto"
               priority
             />
           </div>

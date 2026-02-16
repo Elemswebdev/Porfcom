@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, Facebook, Instagram } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +66,7 @@ export default function Header() {
           {/* Social Icons - Desktop */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://facebook.com/porfcomtv"
+              href="https://web.facebook.com/profile.php?id=61572902276161"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-primary transition-colors"
@@ -81,6 +82,15 @@ export default function Header() {
               aria-label="Instagram"
             >
               <Instagram className="w-5 h-5" />
+            </a>
+            <a
+              href="https://tiktok.com/@porfcomtv1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-primary transition-colors"
+              aria-label="TikTok"
+            >
+              <FaTiktok className="w-5 h-5" />
             </a>
           </div>
 
@@ -109,7 +119,7 @@ export default function Header() {
             ))}
             <div className="flex gap-4 px-4 py-2">
               <a
-                href="https://facebook.com/porfcomtv"
+                href="https://web.facebook.com/profile.php?id=61572902276161"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-primary transition-colors"
@@ -125,6 +135,15 @@ export default function Header() {
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://tiktok.com/@porfcomtv1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-primary transition-colors"
+                aria-label="TikTok"
+              >
+                <FaTiktok className="w-5 h-5" />
               </a>
             </div>
           </nav>

@@ -37,7 +37,7 @@ export default function Livestream() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="#livestream"
+                href="https://web.facebook.com/profile.php?id=61572902276161"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition"
               >
                 Livestream

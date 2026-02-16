@@ -59,7 +59,10 @@ export default function Hero() {
                hover:bg-white hover:text-black hover:shadow-xl hover:-translate-y-0.5
                focus-visible:outline-none"
             >
-              <a href="#livestream" className="relative z-10">
+              <a
+                href="https://web.facebook.com/profile.php?id=61572902276161"
+                className="relative z-10"
+              >
                 Watch Live
               </a>
             </Button>

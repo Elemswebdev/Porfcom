@@ -1,12 +1,16 @@
 import Link from "next/link";
 import { Facebook, Instagram } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
     { label: "Home", href: "#home" },
-    { label: "Livestream", href: "#livestream" },
+    {
+      label: "Livestream",
+      href: "https://web.facebook.com/profile.php?id=61572902276161",
+    },
     { label: "The Church", href: "#about" },
     { label: "Contact", href: "#contact" },
   ];
@@ -78,7 +82,7 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4 text-white">Follow Us</h3>
             <div className="flex gap-4 mb-6">
               <a
-                href="https://facebook.com"
+                href="https://web.facebook.com/profile.php?id=61572902276161"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white hover:bg-primary/80 transition-colors"
@@ -87,13 +91,22 @@ export default function Footer() {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/porfcomtv"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white hover:bg-primary/80 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://tiktok.com/@porfcomtv1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white hover:bg-primary/80 transition-colors"
+                aria-label="TikTok"
+              >
+                <FaTiktok className="w-5 h-5" />
               </a>
             </div>
             <p className="text-gray-400 text-sm">

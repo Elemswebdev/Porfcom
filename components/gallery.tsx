@@ -25,7 +25,7 @@ export default function Gallery() {
     {
       id: 4,
       // title: "Prayer Meeting",
-      src: "/images/Image3.jpeg",
+      src: "/images/APO.jpeg",
     },
     {
       id: 5,

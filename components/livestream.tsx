@@ -11,15 +11,15 @@ export default function Livestream() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* LEFT: EVENT IMAGE */}
-          <div className="relative w-full h-[520px] rounded-3xl overflow-hidden shadow-2xl">
-            <Image
-              src="/images/Annual.jpeg"
-              alt="Upcoming Program"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
+          {/* <div className="relative w-full h-[520px] rounded-3xl overflow-hidden shadow-2xl"> */}
+          <Image
+            src="/images/Annual.jpeg"
+            alt="Upcoming Program"
+            fill
+            className="object-contain"
+            priority
+          />
+          {/* </div> */}
 
           {/* RIGHT: CONTENT */}
           <div className="max-w-xl">

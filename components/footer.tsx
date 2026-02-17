@@ -55,7 +55,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4 text-white">Contact</h3>
             <ul className="space-y-3 text-sm text-gray-400">
-              <li> Elikpokwuodu, Last Bus Stop,</li>
+              <li> Elikpokwuodu Last Bus Stop,</li>
               <li> Before Hydropet Fuel Station,</li>
               <li> Rukpokwu, Rivers State.</li>
               <li className="mt-4">

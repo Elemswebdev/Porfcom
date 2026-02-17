@@ -72,7 +72,7 @@ export default function ServiceTimes() {
                       Address
                     </p>
                     <p className="text-lg text-gray-800 font-semibold mt-1">
-                      Elikpokwuodu,Last Bus Stop,
+                      Elikpokwuodu Last Bus Stop,
                       <br />
                       Before Hydropet Fuel Station,
                       <br />

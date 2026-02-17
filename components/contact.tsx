@@ -147,7 +147,7 @@ export default function Contact() {
             <div className="border-l-4 border-primary p-6 shadow-md rounded-lg">
               <h3 className="font-bold text-primary mb-2">📍 Visit Us</h3>
               <p className="text-gray-700">
-                Elikpokwuodu, Last Bus Stop,
+                Elikpokwuodu Last Bus Stop,
                 <br />
                 Before Hydropet Fuel Station,
                 <br />

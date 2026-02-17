@@ -147,7 +147,7 @@ export default function Contact() {
             <div className="border-l-4 border-primary p-6 shadow-md rounded-lg">
               <h3 className="font-bold text-primary mb-2">📍 Visit Us</h3>
               <p className="text-gray-700">
-                Elikpokwu-Odu, Last Bus Stop,
+                Elikpokwuodu, Last Bus Stop,
                 <br />
                 Before Hydropet Fuel Station,
                 <br />
@@ -157,7 +157,8 @@ export default function Contact() {
 
             <div className="border-l-4 border-primary p-6 shadow-md rounded-lg">
               <h3 className="font-bold text-primary mb-2">📞 Call Us</h3>
-              <p className="font-semibold">+234 912 003 2527</p>
+              <p className="font-semibold">+234 704 493 6670</p>
+              <p className="font-semibold">+234 814 632 8180</p>
             </div>
 
             <div className="border-l-4 border-primary p-6 shadow-md rounded-lg">

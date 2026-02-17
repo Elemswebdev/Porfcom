@@ -72,7 +72,7 @@ export default function ServiceTimes() {
                       Address
                     </p>
                     <p className="text-lg text-gray-800 font-semibold mt-1">
-                      Elikpokwu-Odu,Last Bus Stop,
+                      Elikpokwuodu,Last Bus Stop,
                       <br />
                       Before Hydropet Fuel Station,
                       <br />
@@ -86,7 +86,9 @@ export default function ServiceTimes() {
                       Contact
                     </p>
                     <p className="text-lg text-primary font-semibold mt-1">
-                      +234 (0) 912-003-2527
+                      +234 (0) 704-493-6670
+                      <br />
+                      +234 (0) 814-632-8180
                       <br />
                       porfcommedia@gmail.com
                     </p>

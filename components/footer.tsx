@@ -28,7 +28,7 @@ export default function Footer() {
               <span className="text-xl font-bold">Porfcom</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Empowered to librate, restore, and reposition lives in their lost
+              Empowered to liberate, restore, and reposition lives in their lost
               freedoms. Recovering of destinies, raising righteous Kings, men
               and women into their rightful places
             </p>
@@ -55,15 +55,23 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4 text-white">Contact</h3>
             <ul className="space-y-3 text-sm text-gray-400">
-              <li> Elikpokwu-Odu, Last Bus Stop,</li>
+              <li> Elikpokwuodu, Last Bus Stop,</li>
               <li> Before Hydropet Fuel Station,</li>
               <li> Rukpokwu, Rivers State.</li>
               <li className="mt-4">
                 <a
-                  href="tel:+2349120032527"
+                  href="tel:+2348146328180"
                   className="hover:text-primary transition-colors"
                 >
-                  +234 (0) 912-003-2527
+                  +234 (0) 814-632-8180
+                </a>
+              </li>
+              <li>
+                <a
+                  href="tel:+2347044936670"
+                  className="hover:text-primary transition-colors"
+                >
+                  +234 (0) 704-493-6670
                 </a>
               </li>
               <li>

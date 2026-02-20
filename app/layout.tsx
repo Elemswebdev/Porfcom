@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/porfcom logo-cropped.png",
+        url: "/images/porfcom logo-cropped.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/porfcom logo-cropped.png",
+        url: "/images/porfcom logo-cropped.png",
         media: "(prefers-color-scheme: dark)",
       },
     ],
-    apple: "/porfcom logo-cropped.png",
+    apple: "/images/porfcom logo-cropped.png",
   },
 };
 

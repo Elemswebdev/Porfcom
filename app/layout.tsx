@@ -15,9 +15,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Porfcom - Raising a people of faith, power, and purpose",
+  title: "Power of Redemption Fire Covenant Ministry - Redemption House",
   description:
-    "Welcome to Porfcom, a modern church community dedicated to raising a people of faith, power, and purpose",
+    "Empowered to liberate, restore, and reposition lives in their lost freedoms. Recovering of destinies, raising righteous Kings, menand women into their rightful places",
   // generator: 'v0.app',
   icons: {
     icon: [

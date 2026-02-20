@@ -29,10 +29,6 @@ export const metadata: Metadata = {
         url: "/porfcom logo-cropped.png",
         media: "(prefers-color-scheme: dark)",
       },
-      {
-        url: "porfcom logo-cropped.png",
-        type: "image/svg+xml",
-      },
     ],
     apple: "/porfcom logo-cropped.png",
   },

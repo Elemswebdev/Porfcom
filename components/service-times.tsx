@@ -8,7 +8,7 @@ export default function ServiceTimes() {
       type: "Restoration Service",
     },
     {
-      day: "Teusday",
+      day: "Tuesday",
       times: ["10:00 AM"],
       type: "The Power of His Presence",
     },

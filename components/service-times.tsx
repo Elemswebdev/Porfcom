@@ -10,7 +10,7 @@ export default function ServiceTimes() {
     {
       day: "Tuesday",
       times: ["10:00 AM"],
-      type: "The Power of His Presence",
+      type: "Breakthrough Service",
     },
     {
       day: "Friday",
